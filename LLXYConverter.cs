@@ -36,7 +36,7 @@ namespace LLXYConverter
             new XYGroup() { No = 16, o_lon = 124d, o_lat = 26d },
             new XYGroup() { No = 17, o_lon = 131d, o_lat = 26d },
             new XYGroup() { No = 18, o_lon = 136d, o_lat = 20d },
-            new XYGroup() { No = 19, o_lon = 154d, o_lat = 26d}
+            new XYGroup() { No = 19, o_lon = 154d, o_lat = 26d }
         };
 
         static double a = 6378137; // 地球の長半径[km]
@@ -102,7 +102,6 @@ namespace LLXYConverter
             (4174d / 315d) * np[5] - (144838d / 6237d) * np[6],
             (601676d / 22275d) * np[6]
         };
-
 
         /// <summary>
         /// 緯度経度 to 平面直角座標
@@ -283,8 +282,8 @@ namespace LLXYConverter
         public XYGroup group { get; set; }
     }
 
-    public class XYGroup {
-
+    public class XYGroup
+    {
         /// <summary>
         /// 系番号
         /// </summary>
