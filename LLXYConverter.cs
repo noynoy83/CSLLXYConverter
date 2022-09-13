@@ -40,7 +40,7 @@ namespace LLXYConverter
         };
 
         static double a = 6378137; // 地球の長半径[km]
-        static double F = 298.257222101d; // 地球の逆扁平率
+        static double F = 298.257222101d; // 地球の逆扁平率 (WGS84採用時は 298.257223563dに置き換える．) 
         static double m_0 = 0.9999; // 縮尺係数
         static double n = 1d / (2d * F - 1d);
 
